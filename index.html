@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Book List</title>
+</head>
+<body>
+  <div id="container">
+    <!----- Header ----->
+    <header>
+      <div id="page-banner">
+        <h1 class="title">My Booklist</h1>
+        <form id="search-books">
+          <input type="text" placeholder="Search Books..." />
+        </form>
+      </div>
+    </header>
+    <!----- Book Title ----->
+    <div id="book-list">
+      <h2 class="title">Recent Books</h2>
+      <!----- Booklist ----->
+      <div class="clear"></div>
+      <ul>
+        <li>
+          <span class="name">Silent Spring</span>
+          <span class="delete">Delete</span>
+        </li>
+        <li>
+          <span class="name">What is life?</span>
+          <span class="delete">Delete</span>
+        </li>
+        <li>
+          <span class="name">Micrographia</span>
+          <span class="delete">Delete</span>
+        </li>
+        <li>
+          <span class="name">The Ants</span>
+          <span class="delete">Delete</span>
+        </li>
+      </ul>
+    </div>
+    <!----- Form ----->
+    <form id="hide">
+      <label>Hide Books</label>
+      <input type="checkbox"/>
+    </form>
+    <!----- Clear ----->
+    <div class="clear"></div>
+    <!----- Add Book ----->
+    <form id="add-book">
+      <input type="text" placeholder="Add a Book..." />
+      <a class="button" href="#">Add</a>
+    </form>
+  </div>
+  <!----- Script ----->
+  <script src="app.js"></script>
+</body>
+</html>
