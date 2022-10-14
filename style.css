@@ -11,7 +11,8 @@ body {
   clear: both;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
@@ -28,11 +29,12 @@ h1, h2 {
 }
 
 #page-banner {
-  background: #eee;
+  background: lightgray;
   padding: 10px 0;
 }
 
-#page-banner h1, #page-banner p {
+#page-banner h1,
+#page-banner p {
   width: 100%;
   text-align: center;
   margin: 10px 0;
@@ -50,7 +52,9 @@ h1, h2 {
   color: #444;
 }
 
-#book-list, #add-book, #tabbed-content {
+#book-list,
+#add-book,
+#tabbed-content {
   margin: 30px;
 }
 
@@ -59,7 +63,8 @@ h1, h2 {
   margin-right: 15px;
 }
 
-#book-list ul, #tabbed-content ul {
+#book-list ul,
+#tabbed-content ul {
   list-style: none;
   padding: 0;
 }
@@ -145,4 +150,42 @@ h1, h2 {
 
 #add-book #hide {
   width: 30px;
+}
+
+/* CSS codes for color themes */
+.theme div {
+  height: 20px;
+  width: 20px;
+  float: left;
+  margin-left: 9px;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+.Light {
+  background: #fff;
+  color: #000;
+}
+
+.Dark {
+  background: #444;
+  color: #fff;
+}
+
+.Yellow {
+  background: rgb(255, 247, 187);
+  color: #000;
+}
+
+.Green {
+  background: rgb(192, 249, 197);
+  color: #000;
+}
+
+#selection {
+  margin-left: 10px;
+  border: 1px solid;
+  padding: 2px;
+  border-radius: 5px;
 }
