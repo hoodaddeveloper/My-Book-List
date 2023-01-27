@@ -102,31 +102,31 @@ h2 {
 }
 
 #add-book input {
-  display: block;
-  margin: 20px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  border-radius: 4px 0 0 4px;
-  box-sizing: border-box;
-  width: 300px;
   float: left;
+  width: 300px;
+  padding: 10px;
+  margin: 20px 0;
+  display: block;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
 }
 
 #add-book .button {
-  border: 1px solid #9361bf;
-  background: #9361bf;
-  padding: 10px 20px;
-  font-size: 17px;
-  display: inline-block;
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
   width: 59px;
   margin: 20px 0;
   border-left: 0;
-  text-decoration: none;
-  text-align: center;
   color: white;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  background: #9361bf;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid #9361bf;
 }
 
 #add-book .button:hover {
@@ -135,8 +135,8 @@ h2 {
 
 #add-book:after {
   content: "";
-  display: block;
   clear: both;
+  display: block;
 }
 
 #hide {
@@ -154,38 +154,38 @@ h2 {
 
 /* CSS codes for color themes */
 .theme div {
-  height: 20px;
   width: 20px;
   float: left;
-  margin-left: 9px;
+  height: 20px;
   cursor: pointer;
-  border: 1px solid #555;
+  margin-left: 9px;
   border-radius: 5px;
+  border: 1px solid #555;
 }
 
 .Light {
-  background: #fff;
   color: #000;
+  background: #fff;
 }
 
 .Dark {
-  background: #444;
   color: #fff;
+  background: #444;
 }
 
 .Yellow {
-  background: rgb(255, 247, 187);
   color: #000;
+  background: rgb(255, 247, 187);
 }
 
 .Green {
-  background: rgb(192, 249, 197);
   color: #000;
+  background: rgb(192, 249, 197);
 }
 
 #selection {
+  padding: 2px;
   margin-left: 10px;
   border: 1px solid;
-  padding: 2px;
   border-radius: 5px;
 }
